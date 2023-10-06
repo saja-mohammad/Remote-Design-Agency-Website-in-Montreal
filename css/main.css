@@ -1,0 +1,101 @@
+.main{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main .d-flex{
+    display: flex;
+
+}
+
+.main .d-flex h2{
+    width: 550px !important;
+    padding-left: 90px;
+}
+
+.main .d-flex p{
+    width: 500px !important;
+    margin-left: 150px;
+}
+
+
+.main .feature{
+    text-align: center;
+    width: 300px;
+    padding: 27px;
+    margin: auto;
+}
+
+.main .feature h3{
+    font-size: 20px !important;
+}
+
+.main .feature img{
+    background-color: #222831;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+
+@media (min-width: 0px) and (max-width: 576px) {
+
+.main .d-flex{
+    text-align: center;
+}
+    .main .d-flex h2{
+        width: 400px !important;
+        padding-left: 50px;
+    }
+    
+    .main .d-flex p{
+        width: 350px !important;
+        margin-left: 50px;
+    }
+    .main h6{
+        margin-left: 50px !important;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    .main .d-flex{
+        text-align: center;
+    }
+        .main .d-flex h2{
+            width: 450px !important;
+            padding-left: 10px;
+        }
+        
+        .main .d-flex p{
+            width: 350px !important;
+            margin-left: 50px;
+        }
+        .main h6{
+            margin-left: 40px !important;
+        }
+    
+    }
+
+    @media (min-width: 768px) and (max-width: 992px) {
+
+        .main .d-flex{
+            text-align: center;
+        }
+            .main .d-flex h2{
+                width: 600px !important;
+                margin-left: 0px;
+            }
+            
+            .main .d-flex p{
+                width: 470px !important;
+                margin-left: 100px;
+            }
+            .main h6{
+                margin-left: 40px !important;
+            }
+        
+        }

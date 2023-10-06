@@ -1,0 +1,38 @@
+.hero .navbar {
+  width: 100%;
+  padding: 10px 20px;
+  
+}
+
+.hero .navbar-nav {
+  margin-left: 400px;
+}
+
+.hero .navbar-brand {
+  color: #fff !important;
+}
+
+.hero button.mainbtn {
+  color: black;
+  background-color: #fff;
+  border-color: black;
+ 
+}
+
+.hero li a{
+  padding: 30px;
+  color: #fff !important;
+  
+}
+
+.navbar-toggler-icon{
+    color: #fff;
+}
+
+@media (min-width: 0px) and (max-width: 992px) {
+   .hero button.mainbtn {
+    position: fixed;
+  right: 100px;
+  top: 10px;
+}
+  }

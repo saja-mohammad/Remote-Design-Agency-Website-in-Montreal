@@ -1,0 +1,30 @@
+.about ,.about .text-body-emphasis {
+    background-color:#222831; color: #fff !important;
+}
+.about button{
+    background-color:#00D0B0;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 0;
+}
+
+
+.--swiper-theme-color{
+background-color: #222831 !important;
+}
+
+.swiper-slide img{
+    width: 280px !important;
+    height: 190px;
+
+}
+
+.swiper-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border: #fff 1px solid;
+    padding: 10px;
+} 

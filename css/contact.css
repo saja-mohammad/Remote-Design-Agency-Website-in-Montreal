@@ -1,0 +1,25 @@
+.contact .container{
+    background-color: #222831 !important;
+    color: #fff !important;
+}
+
+.contact .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.contact .text button{
+position: relative;
+    border: none !important;
+    left: -85%;
+    color:#00D0B0;
+}
+
+.contact span{
+    padding: 7px 0 7px 15px;
+    border-radius: 50%;
+    background-color: #fff;
+}

@@ -1,0 +1,22 @@
+.team .text-bg-primary {
+    background-color: transparent!important;
+}
+
+.team .feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team .d-flex{
+    align-items: center;
+width: 500px;
+margin: auto;
+}
+
+.team .feature img{
+    border: 50px;
+    border-radius:50%;
+    background-color: #00D0B0;
+}
